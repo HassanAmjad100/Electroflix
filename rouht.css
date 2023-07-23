@@ -1,0 +1,69 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.row{
+    height: 40px;
+ 
+    background-image:linear-gradient(to left,white,rgb(61, 60, 60), black);
+    animation: color-me-in 10s;
+}
+.aux-text{
+    color: white;
+}
+.top-contact-info a{
+    color: white;
+    margin: 4px;
+}
+#info{
+color: white;
+text-decoration: none;
+}
+#info1{
+color: white;
+text-decoration: none;
+}
+.social-icons{
+    text-decoration: none;
+    list-style: none;
+}
+li{
+    display: inline;
+    padding: 10px;
+}
+#icon,#icon1,#icon2,#icon3{
+    color: black;
+    size: 30px;
+    animation: color-me-in 10s;
+}
+#icon:hover{
+color: tomato;
+}
+#icon1:hover{
+color: blue;
+}
+#icon2:hover{
+color: red;
+}
+#icon3:hover{
+    color: blue;
+}
+@keyframes color-me-in {
+    /* You could think of as "step 1" */
+    0% {
+       background: rgb(189, 201, 189);
+    }
+    50%{
+        background: rgb(73, 71, 71);
+    }
+    /* You could think of as "step 2" */
+    100% {
+        background: rgb(46, 46, 46);
+    }
+  }
+
